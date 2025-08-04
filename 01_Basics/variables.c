@@ -68,3 +68,9 @@ int main() {
     * char[] = string (array of characters, null-terminated)
     * printf() is used to print formatted output to the console.
 */
+
+/*
+    * You can find the size of variables using the sizeof() operator.
+    * Example: printf("Size of int: %zu bytes\n", sizeof(int));
+    * This will print the size of the int data type in bytes. 
+*/
