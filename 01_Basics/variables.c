@@ -5,7 +5,10 @@
     * The program prints the values of these variables to the console.
 */
 
+
 #include <stdio.h> //* This header file is required for input and output functions.
+#include <stdbool.h> //* This header file is required for boolean type support in C.
+
 int main() {
     int integerVar = 10;          //* Integer variable
     float floatVar = 5.5f;       //* Float variable
@@ -28,7 +31,27 @@ int main() {
 
     //* String variable example
     char name[] = "Oussama SAIDI";
-    printf("Hello %s", name);
+    char email[] = "saidi.oussama2004@gmail.com";
+    char food[] = "pizza";
+
+    printf("Hello %s\n", name); 
+    printf("My email is %s\n", email);              
+    printf("My favorite food is %s\n", food);
+    //! Note: The format specifier %s is used for strings in printf.
+
+    //* Boolean variable example
+
+    /*
+        * C does not have a built-in boolean type, but we can use int to represent boolean values.
+        * We need to include the stdbool.h header file for boolean type support.
+        * 0 is false, and any non-zero value is true.
+        * In C, we typically use 0 for false and 1 for true.
+    */
+
+    bool isTrue = true; //* Boolean variable
+    printf("%d\n", isTrue); //* Printing the boolean value (1 for true, 0 for false)
+
+
 
     return 0; //* Return statement indicating successful execution
 }
