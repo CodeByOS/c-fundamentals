@@ -26,5 +26,9 @@ int main() {
             - %.5lf for double precision floating-point numbers (with 5 decimal places)
     */
 
+    //* String variable example
+    char name[] = "Oussama SAIDI";
+    printf("Hello %s", name);
+
     return 0; //* Return statement indicating successful execution
 }
