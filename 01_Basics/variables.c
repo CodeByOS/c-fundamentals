@@ -55,3 +55,16 @@ int main() {
 
     return 0; //* Return statement indicating successful execution
 }
+
+
+//! NOTE :
+
+/*
+    * int = whole numbers (4 bytes in modern systems)
+    * float = single-precision floating-point numbers (4 bytes)
+    * char = single character (1 byte)
+    * double = double-precision floating-point numbers (8 bytes)
+    * bool = boolean type (true/false, typically 1 byte, requires stdbool.h)
+    * char[] = string (array of characters, null-terminated)
+    * printf() is used to print formatted output to the console.
+*/
