@@ -1,5 +1,6 @@
 /*
     ! --- ARRAYS OF STRINGS ---
+    -----------------------------------------------------------------------------
     - A string in C is an array of characters ending with '\0' (null character).
     - Strings are stored in char arrays.
 
